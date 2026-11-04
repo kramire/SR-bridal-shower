@@ -50,7 +50,7 @@ export default function SaveTheDatePage() {
                 </span>
                 <br />
                 <span className="write-in-delay w-full">
-                  "I do!"
+                  "I do!  "
                 </span>
               </h1>
             </div>
