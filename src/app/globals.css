@@ -22,6 +22,26 @@
   --paper-soft: #faf9f7;
   --line: #e7e4df;
   --accent: #a7a18e;
+
+/* Backgrounds */
+  --color-background: #F7F3EB;
+  --color-paper: #FFFCF6;
+
+  /* Primary palette */
+  --color-rose: #925650;
+  --color-sage: #607454;
+  --color-cream: #E8DDBD;
+
+  /* Text */
+  --color-text: #423B35;
+  --color-text-muted: #62564C;
+  --color-text-soft: #62564C;
+
+  /* Borders & decorative elements */
+  --color-border: #C8BBAA;
+  --color-border-soft: #C8BBAA;
+  --color-floral-rose: #E4D2C9;
+  --color-floral-sage: #AAB59A;
 }
 
 * {
@@ -123,5 +143,61 @@ select {
     animation-iteration-count: 1 !important;
     animation-delay: 0ms !important;
     transition-duration: 0.01ms !important;
+  }
+}
+
+@keyframes writeIn {
+  0% {
+    clip-path: inset(0 100% 0 0);
+    opacity: 0;
+  }
+
+  10% {
+    opacity: 1;
+  }
+
+  100% {
+    clip-path: inset(0 0 0 0);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.write-in {
+  display: inline-block;
+  opacity: 0;
+  animation: writeIn 2.2s ease-out 0.5s forwards;
+}
+
+.write-in-delay {
+  display: inline-block;
+  opacity: 0;
+  animation: writeIn 1.5s ease-out 2.5s forwards;
+}
+
+.details-reveal {
+  opacity: 0;
+  animation: fadeUp 1.2s ease-out 3.8s forwards;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .write-in,
+  .write-in-delay,
+  .details-reveal {
+    animation: none;
+    opacity: 1;
+    clip-path: none;
+    transform: none;
   }
 }
