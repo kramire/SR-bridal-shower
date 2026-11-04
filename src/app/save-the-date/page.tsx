@@ -46,10 +46,10 @@ export default function SaveTheDatePage() {
             <div className="mb-8">
               <h1 className="font-[family-name:var(--font-script)] text-6xl leading-tight text-[var(--color-rose)] sm:text-7xl">
                 <span className="write-in">
-                  She's sayin'
+                  She's saying
                 </span>
                 <br />
-                <span className="write-in-delay">
+                <span className="write-in-delay w-full">
                   "I do!"
                 </span>
               </h1>
@@ -73,7 +73,7 @@ export default function SaveTheDatePage() {
               </p>
 
               <p className="mb-5 font-[family-name:var(--font-serif)] text-4xl font-semibold tracking-wide text-[var(--color-text)] sm:text-5xl">
-                Sarah
+                Sarah Ramiré
               </p>
 
               <div className="space-y-2 font-[family-name:var(--font-serif)] text-2xl font-medium tracking-wide text-[var(--color-text)]">
