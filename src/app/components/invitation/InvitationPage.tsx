@@ -1,6 +1,5 @@
 import { EVENT, SECTIONS, LOCAL_ACTIVITIES, MAPS_URL } from "@/app/App.constants";
 
-
 export default function InvitationPage() {
   const dateFormatter = new Intl.DateTimeFormat("en-US", {
     weekday: "long",
