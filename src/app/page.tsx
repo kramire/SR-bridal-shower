@@ -1,6 +1,6 @@
 
-import InvitationPage from "./components/invitation/InvitationPage";
+import NotFound from "./not-found";
 
 export default function Home() {
-  return <InvitationPage />;
+  return <NotFound />;
 }

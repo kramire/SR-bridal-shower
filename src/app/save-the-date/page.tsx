@@ -18,7 +18,7 @@ export default function SaveTheDatePage() {
     <main
       className={`${script.variable} ${serif.variable} min-h-screen bg-[var(--color-background)] text-[var(--color-text)] overflow-hidden`}
     >
-      <section className="relative flex min-h-screen items-center justify-center px-6 py-16">
+      <section className="relative flex min-h-screen items-center justify-center px-6 py-10">
 
         {/* Decorative florals */}
         <div className="pointer-events-none absolute -left-12 top-0 rotate-[-25deg] font-[family-name:var(--font-serif)] text-[120px] text-[var(--color-floral-sage)] opacity-60">
@@ -44,7 +44,7 @@ export default function SaveTheDatePage() {
 
             {/* Animated headline */}
             <div className="mb-8">
-              <h1 className="font-[family-name:var(--font-script)] text-6xl leading-tight text-[var(--color-rose)] sm:text-8xl">
+              <h1 className="font-[family-name:var(--font-script)] text-6xl leading-tight text-[var(--color-rose)] sm:text-7xl">
                 <span className="write-in">
                   She's sayin'
                 </span>
@@ -78,12 +78,12 @@ export default function SaveTheDatePage() {
 
               <div className="space-y-2 font-[family-name:var(--font-serif)] text-2xl font-medium tracking-wide text-[var(--color-text)]">
                 <p>Saturday, April 24, 2027</p>
-                <p className="text-[var(--color-sage)]">
+                <p>
                   Westfield, NJ
                 </p>
               </div>
 
-              <p className="mt-10 text-xs font-medium tracking-[0.2em] text-[var(--color-text-muted)] sm:text-sm">
+              <p className="mt-6 text-xs font-medium tracking-[0.2em] text-[var(--color-text-muted)] sm:text-sm">
                 Invitation to follow
               </p>
 
